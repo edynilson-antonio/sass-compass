@@ -1,0 +1,21 @@
+$n: 5px;
+
+p {
+    border-width: calc(2 * $n); // não funciona!
+}
+
+div {
+    width: calc(100% - $n); // não funciona!
+}
+
+// ATENÇÃO NO USO DE VALORES DAS VARIÁVEIS EM DECLARAÇÕES CSS.
+
+$n: 5px;
+
+p {
+    border-width: calc(2 * #{ $n }); // funciona
+}
+
+div {
+    width: calc(100% - #{ $n }); // funciona
+}

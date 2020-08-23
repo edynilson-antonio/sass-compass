@@ -1,0 +1,17 @@
+$versao: '1.0.2';
+$data: '20/02/2016';
+$class: lateral;
+$font-size: 16px;
+$line-height: 25px;
+$blue: rgb(0, 0, 255);
+
+/* Folha de estilo
+Versão #{ $versao }
+
+Data: #{ $data} */
+
+div.#{ $class } {
+    width: 100%;
+    font: #{ $font-size } / #{ $line-height } sans-serif;
+    color: #{ $blue };
+}

@@ -1,0 +1,18 @@
+a {
+    color: red;
+    text-decoration: none;
+
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    &.externo {
+        font-size: 30px;
+        text-decoration: overline;
+    }
+
+    p > & {
+        color: lime;
+    }
+}

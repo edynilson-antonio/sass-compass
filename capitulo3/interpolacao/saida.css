@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Folha de estilo
+Versão 1.0.2
+
+Data: 20/02/2016 */
+
+div.lateral {
+    width: 100%;
+    font: 16px / 25px sans-serif;
+    color: blue;
+}

@@ -1,0 +1,16 @@
+div {
+    border-color: red;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+#principal {
+    background-color: #ddd;
+    background-image: url(bg.png);
+    background-repeat: repeat-x;
+    background-position: center left;
+    font: 30px/1.4 sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
